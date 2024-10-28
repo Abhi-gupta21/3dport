@@ -1,0 +1,14 @@
+{
+  "homepage": "https://abhi-gupta21.github.io/",
+  "devDependencies": {
+    "gh-pages": "^6.2.0"
+  },
+  "scripts": {
+    "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "framer-motion": "^11.11.10"
+  }
+}
