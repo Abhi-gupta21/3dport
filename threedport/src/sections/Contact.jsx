@@ -22,8 +22,8 @@ const Contact = () => {
 
     emailjs
       .send(
-        'service_l8767x9',
-        'template_fdrtbkb',
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
           to_name: 'Sai Abhishek Ketepally',
@@ -31,7 +31,7 @@ const Contact = () => {
           to_email: 'ketepask@mail.uc.edu',
           message: form.message,
         },
-        'AtKiHwzj1YEd49mRo'
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
       .then(() => {
         hideAlert();
