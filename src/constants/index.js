@@ -137,7 +137,7 @@ export const navLinks = [
       subdesc:
         'Implemented comprehensive security measures including protection against SQL injections by using prepared statements, CSRF attacks by sending a hidden key with the form for validation and XSS attacks by filtering input Enhanced user experience through dynamic content updates and ensured the performance of the application with thorough testing.',
       href: 'https://youtu.be/PWaol4FA9Ps',
-      texture: '/textures/project/demo of my app.mp4',
+      texture: '/textures/project/demo_of_my_app.mp4',
       logo: '/assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
